@@ -1,0 +1,5 @@
+Light Blue and White style with gradiant between divs.
+
+- Temperature 	- Through given module?
+- Weather		- Using some location module, compare against weather in area and return info.
+- Roomba		- Schedule roomba for release.

@@ -1,0 +1,19 @@
+:root {
+	font-family: "Arial";
+	text-align: center;
+}
+
+p {
+	padding: 15px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+	padding-bottom: 50px;
+}
