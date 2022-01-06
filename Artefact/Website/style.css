@@ -1,0 +1,75 @@
+body {
+	overflow: auto;
+	text-align: center;
+	font-family: "Arial";
+	background-color: black;
+}
+
+div {
+	background-color: white;
+}
+
+header {
+	position: absolute;
+	justify-items: center;
+	width: 100%;
+	display: block;
+	animation: fadeDown 1s;
+}
+
+@keyframes fadeDown {
+	from {
+		opacity: 0;
+		transform: translateY(-10%)
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0%)
+	}
+}
+
+header a {
+	text-decoration: none;
+	padding: 10px 75px;
+	border: 1px solid;
+	color: #000;
+	background-color: #f1f1f1;
+}
+
+header a:hover {
+	color: white;
+	background-color: #555;
+}
+
+footer{
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 0px;
+	line-height: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: grey;
+	background-color: black;
+}
+
+#container {
+	height: auto;
+	top: 0;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+#bottom {
+	bottom: 0;
+	color: white;
+	background-color: black;
+}
+
+#bottom div {
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: black;
+}
