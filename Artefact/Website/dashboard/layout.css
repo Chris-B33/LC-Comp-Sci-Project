@@ -1,0 +1,10 @@
+#container:nth-child(3) {grid-area: temperature;}
+#container:nth-child(3) {grid-area: acceleration;}
+#container:nth-child(3) {grid-area: direction;}
+
+#container {
+    display: grid;
+    grid-template-areas: 
+    'temperature temperature'
+    'acceleration direction';
+}
