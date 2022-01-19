@@ -45,3 +45,57 @@ var dataset1 = new Chart("temperature", {
         }
     }
 });
+
+var dataset2 = new Chart("acceleration", {
+	type: "line",
+	data: {
+		labels: times,
+		datasets: [
+			{
+				label: "Current Acceleration",
+				data: temps
+			}
+		]
+	},
+	options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    suggestedMax: 30,
+                    suggestedMin: 0,
+                    stepSize: 5,
+                    callback: function (value, index, values) {
+                        return value + '℃'
+                    }
+                }
+            }]
+        }
+    }
+});
+
+var dataset3 = new Chart("direction", {
+	type: "line",
+	data: {
+		labels: times,
+		datasets: [
+			{
+				label: "Current Direction",
+				data: temps
+			}
+		]
+	},
+	options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    suggestedMax: 30,
+                    suggestedMin: 0,
+                    stepSize: 5,
+                    callback: function (value, index, values) {
+                        return value + '℃'
+                    }
+                }
+            }]
+        }
+    }
+});
